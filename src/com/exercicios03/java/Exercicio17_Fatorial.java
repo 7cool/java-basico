@@ -19,7 +19,8 @@ public class Exercicio17_Fatorial {
 		int n = scan.nextInt();
 		
 		int calculo = n;		
-		if (n == 0) calculo++;
+		if (n == 0) calculo++;		
+		n-= 1;
 		
 		while (n > 1) {
 			System.out.println(calculo+"*"+n);

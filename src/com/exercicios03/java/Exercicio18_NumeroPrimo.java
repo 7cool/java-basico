@@ -14,17 +14,15 @@ public class Exercicio18_NumeroPrimo {
 		
 		int primo = 0;
 		
-		for (int i = 2; i < n/2; i++) {
+		for (int i = 1; i <= n; i++) {
 			if (n%i == 0) {
-				primo++;
-				break;
-			}
+				primo++;				
+			};
 		}
 		 
-		 if (primo == 0)
-			 System.out.println("O número é primo");
+		 if (primo == 2)
+			 System.out.println("O número é Primo");
 		 else
-			 System.out.println("O número Não é primo");
+			 System.out.println("O número Não é Primo");
 	}
-
 }
