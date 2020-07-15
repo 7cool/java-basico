@@ -6,10 +6,11 @@ import java.util.Scanner;
 public class Exercicio27_MaiorMenorTemperaturas {
 
 	private static DecimalFormat temperatura;
+	private static Scanner scan;
 
 	public static void main(String[] args) {
 		temperatura = new DecimalFormat("0.00°C");
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		
 		System.out.println("Departamento Estadual de Meteorologia");
 		System.out.println("Temperaturas a serem lidas: ");
