@@ -25,7 +25,7 @@ public class Exercicio15_PercentualParImpar {
 			j++;
 		}
 		
-		out.println("Porcentagem de Pares no vetor A[10]: " + cont*10 + "%");
+		out.println("Porcentagem de Pares no vetor A[10]: " + (cont*100)/A.length + "%");//fórmula porcentagem
 		out.println("Porcentagem de Ímpares no vetor A[10]: " + (10-cont)*10 + "%");
 	}
 }
